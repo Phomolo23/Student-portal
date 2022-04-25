@@ -71,7 +71,7 @@ export default function App() {
             </View>
             <View style={styles.class1}>
               <View style={styles.click}>
-               <Text style={styles.gen}>login the classroom</Text>
+               <Text style={styles.gen}>enter the classroom</Text>
               </View>
               <EvilIcons name="chevron-right" size={30} color="black" />
             </View>
