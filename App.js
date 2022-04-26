@@ -14,7 +14,8 @@ export default function App() {
          <EvilIcons name="navicon" size={26} color="grey" />
          <Text style={styles.textset}>explore in course</Text>
          <FontAwesome name="question-circle" size={24} color="white" />
-        </View>        
+      
+        </View>       
         <Text style={styles.header}>Classes</Text>
 
         <View style={styles.Mainscree}>
