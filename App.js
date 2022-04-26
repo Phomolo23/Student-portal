@@ -100,7 +100,7 @@ export default function App() {
               <EvilIcons name="chevron-right" size={30} color="black" />
             </View>
           </View>
-          <View style={styles.Mrect}>
+          <View style={styles.rect2}>
            <ImageBackground source={mark} resizeMode="cover" style={styles.image}>
              <View style={styles.Subcont}>
              <Image style={styles.modulepic}
@@ -115,7 +115,7 @@ export default function App() {
               </View>
            </ImageBackground>
           </View>
-          <View style={styles.rect1}>
+          <View style={styles.rect2}>
           <ImageBackground source={researc} resizeMode="cover" style={styles.image}>
             <View style={styles.Subcont}>
               <Image style={styles.modulepic}
@@ -131,7 +131,7 @@ export default function App() {
            </ImageBackground>
           </View>
           <View style={styles.rect2}>
-          <Text style={styles.programofstudy}> Business management</Text>
+          
            <ImageBackground source={finanz} resizeMode="cover" style={styles.image}>
              <View style={styles.Subcont}>
              
@@ -245,17 +245,6 @@ plus:{
     fontWeight:'bold',
   },
  
-  rect1:{
-    height:60,
-    width:'100%',
-    borderWidth: 0.1,
-    borderColor: 'grey',
-    backgroundColor:'green',
-    alignItems:'center',
-   justifyContent: 'space-between',
-   flexDirection: 'row',
-
-  },
   Mainscree:{
     height: 300,
     backgroundColor:'white',
@@ -268,18 +257,6 @@ plus:{
     alignItems:'center',
     justifyContent:'center',
     margin: 12,
-  },
-  Mrect: {
-    width:'100%',
-    height: 300,
-    borderWidth: 3,
-    borderColor: 'brown',
-    borderRightColor:'white',
-    borderLeftColor:'white',
-    marginTop: 5,
-    display: "flex",
-    justifyContent: "space-evenly",
-    borderRadius: 10,
   },
   
   rect2: {
